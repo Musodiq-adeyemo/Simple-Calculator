@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.general-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 400px;
+}
+.nav-container {
+    width: 70%;
+}
+.nav-container ul {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+}
+.cal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.cal {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow:  8px 8px  white, 8px 8px  white;
+}
+input {
+    width: 90%;
+    height: 90px;
+    margin: 15px;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: right;
+    border: 4px solid lightgray;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+    box-shadow: inset -4px -4px 13px lightgray, inset 4px 4px 13px lightgray;
+}
+.button {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+button {
+    width: 75px;
+    height: 70px;
+    margin: 5px 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 12px gray,4px 4px 12px gray;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#equal {
+    border-radius: 25px;
+}
+#equal {
+    width: 170px;
+    background: yellow;
+    color: tomato;
+}
+#clear {
+    background: lime;
+    color: red;  
+}
+#del {
+    background: blue;
+    color: red;  
+}
+button:hover,#clear:hover,#del:hover,#equal:hover {
+    background: black;
+    color: white;  
+}
